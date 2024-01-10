@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>projectdata</title>
+    <style>
+        .data {
+            margin-top: 30px;
+            line-height: 2;
+        }
+
+        .table {
+            margin-top: 30px;
+            line-height: 2;
+        }
+        *{
+           background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="data">
+        <center>
+            <form>
+                <table border="1"
+                    <tr>
+                        <td id="img"><b><i>Post Image</i></b></td>
+                        <td><input type="file" id="postInput"></td>
+                    </tr>
+                    <tr>
+                        <td id="registerfee"><b><i>Registration Fee</i></b></td>
+                        <td><input type="number" id="registerInput"></td>
+                    </tr>
+                    <tr>
+                        <td id="link"><b><i>Registration Link</i></b></td>
+                        <td><input type="url" id="linkInput"></td>
+                    </tr>
+                </table>
+                <button style="margin-top: 20px;" type="button" onclick="add()">Add</button>
+            </form>
+        </center>
+    </div>
+
+    <div class="table">
+        <center>
+            <table border="1" id="mytable">
+                <tr>
+                    <td><b>Post Image</b></td>
+                    <td><b>Register Fee</b></td>
+                    <td><b>Registration Link</b></td>
+                    
+                </tr>
+            </table>
+        </center>
+    </div>
+
+    <script>
+        function add() {
+           
+            var postimg = document.getElementById("postInput").value;
+            var registerfee= document.getElementById("registerInput").value;
+            var link = document.getElementById("linkInput").value;
+
+            var table = document.getElementById("mytable");
+
+            var newRow = table.insertRow(table.rows.length);
+            var cell1 = newRow.insertCell(0);
+            var cell2 = newRow.insertCell(1);
+            var cell3 = newRow.insertCell(2);
+           
+
+            cell1.innerHTML = postimg
+            cell2.innerHTML = registerfee
+            cell3.innerHTML = link;
+        }
+    </script>
+</body>
+</html>

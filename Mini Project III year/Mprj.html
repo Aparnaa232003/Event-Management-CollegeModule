@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Event Management</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <!--Font awesome cdn link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <!--custom css file link-->
+        <link rel="stylesheet" href="Mprj.css">
+</head>
+<body>
+
+<!--Header section starts-->
+<header class="header">
+    <a href="#" class="logo"><span>Event</span> Management</a>
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#Events">Events</a>
+    
+        <!-- Dropdown container -->
+        <div class="dropdown">
+          <a href="#Post">Post &#x25BE;</a>
+    
+          <!-- Dropdown content -->
+          <div class="dropdown-content">
+            <a href='Mprj4.html'>Faculty Login</a>
+            <a href='Mprj5.html'>Student Login</a>
+            <a href='projectdata.html'>On Duty Form</a>
+          </div>
+        </div>
+        <a href="#OtherCollegeEvents">OtherCollegeEvents</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#EventReview">EventReview</a>
+        <a href="#ContactInfo">ContactInfo</a>
+      </nav>
+<div id="menu-bars" class="fas fa-bars"></div>
+    
+</header>
+<!--Header section ends-->
+
+<!--Home section starts-->
+<section class="Home" id="Home">
+    <div class="content">
+       
+    <h3>Let’s party like there’s no tomorrow <span>for the greatest events ever!</span></h3>
+    <a href='Mprj2.html' class="btn">Register here!</a>
+</div>
+
+<div class="swiper-container home-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="Images\Image1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="Images\Image2.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="Images\Image3.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="Images\Image4.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="Images\Image5.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="Images\Image6.jpg" alt=""></div>
+    </div>
+</div>
+</section>
+<!--Home section ends-->
+
+<!--Events section starts-->
+<section class="Events" id="Events">
+    <h1 class="heading"><span>Listof</span> Events</h1>
+    <div class="row">
+        <div class="image">
+            <img src="Images\Event.avif" alt="">
+        </div>
+        <div class="content">
+            <h3>A very Special Celebration for you...!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, at!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis autem omnis doloribus fugit.</p>
+            <div class="popup" onclick="myFunction()" ><a href="eventlist.html" class="btn"> View Events!</a>
+              
+        </div>
+        </div>
+    </div>
+</section>
+<!--Events section ends-->
+
+<!--OtherCollegeEvents section starts-->
+<section class="OtherCollegeEvents" id="OtherCollegeEvents">
+    <h1 class="heading">OtherCollege<span> Events</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <h3 class="title">Sports</h3>
+           <!--<h3 class="amount">Rs.100</h3>-->
+            <img src="Images\sports.jpg" alt="">
+            
+            <a href="#" class="btn">Check Out</a>
+         </div>
+
+         <div class="box">
+            <h3 class="title">Technical Events</h3>
+            <!--<h3 class="amount">Rs.150</h3>-->
+            <img src="Images\TECH.jpg" alt="">
+            <a href="#" class="btn">Check Out</a>
+         </div>
+         <div class="box">
+            <h3 class="title">Culturals</h3>
+            <!--<h3 class="amount">Rs.200</h3>-->
+            <img src="Images\cult.jpg" alt="">
+            <a href="#" class="btn">Check Out</a>
+         </div>
+         <div class="box">
+            <h3 class="title">Other Events</h3>
+            <!--<h3 class="amount">Rs.250</h3>-->
+            <img src="Images\Event10.avif" alt="">
+            <a href="#" class="btn">Check Out</a>
+         </div>
+
+    </div>
+</section>
+
+<!--OtherCollegeEventssection ends-->
+
+<!--gallery section starts-->
+<section class="gallery" id="gallery">
+    <h1 class="heading">Event<span>Memories</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="Images\images1.jpeg" alt="">
+            <h3 class="title">Photos and Events</h3>
+            <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Images\images2.jpeg" alt="">
+            <h3 class="title">Photos and Events</h3>
+            <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+    </div>
+        <div class="box">
+            <img src="Images\images7.jpg" alt="">
+            <h3 class="title">Photos and Events</h3>
+            <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+    </div>
+        <div class="box">
+            <img src="Images\images4.jpg" alt="">
+            <h3 class="title">Photos and Events</h3>
+            <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+    </div>
+        <div class="box">
+            <img src="Images\images5.jpeg" alt="">
+            <h3 class="title">Photos and Events</h3>
+            <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+    </div>
+        <div class="box">
+            <img src="Images\images6.jpeg" alt="">
+            <h3 class="title">Photos and Events</h3>
+            <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+    </div>
+        <div class="box">
+            <img src="Images\images3.jpeg" alt="">
+            <h3 class="title">Photos and Events</h3>
+            <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+    </div>
+        <div class="box">
+            <img src="Images\images8.jpg" alt="">
+            <h3 class="title">Photos and Events</h3>
+            <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+    </div>
+        <div class="box">
+            <img src="Images\Event11.webp" alt="">
+            <h3 class="title">Photos and Events</h3>
+            <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+    </div>
+    </div>
+    </section>
+    <!--gallery secion ends-->
+
+<!--EventReview section starts-->
+<section class="EventReview" id="EventReview">
+    <h1 class="heading">Participant's<span>Review</span></h1>
+    <div class="review-slider swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+              <div class="Students">
+                <img src="Images\std1.jpg" alt="">
+                <div class="Student-info">
+                    <h3>SName1</h3>
+                    <span>Happy Participants</span>
+                 </div>
+              </div>  
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti molestias eveniet ipsam neque et. Nesciunt non harum, quam doloribus aut quas unde ratione quasi, enim eius facilis, dolorem quaerat teneture</p>
+            </div>
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+              <div class="Students">
+                <img src="Images\std2.jpg" alt="">
+                <div class="Student-info">
+                    <h3>SName1</h3>
+                    <span>Happy Participants</span>
+                 </div>
+              </div>  
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti molestias eveniet ipsam neque et. Nesciunt non harum, quam doloribus aut quas unde ratione quasi, enim eius facilis, dolorem quaerat teneture</p>
+            </div>
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+              <div class="Students">
+                <img src="Images\std3.jpg" alt="">
+                <div class="Student-info">
+                    <h3>SName1</h3>
+                    <span>Happy Participants</span>
+                 </div>
+              </div>  
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti molestias eveniet ipsam neque et. Nesciunt non harum, quam doloribus aut quas unde ratione quasi, enim eius facilis, dolorem quaerat teneture</p>
+            </div>
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+              <div class="Students">
+                <img src="Images\std4.jpg" alt="">
+                <div class="Student-info">
+                    <h3>SName1</h3>
+                    <span>Happy Participants</span>
+                 </div>
+              </div>  
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti molestias eveniet ipsam neque et. Nesciunt non harum, quam doloribus aut quas unde ratione quasi, enim eius facilis, dolorem quaerat teneture</p>
+            </div>
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+              <div class="Students">
+                <img src="Images\std5.jpg" alt="">
+                <div class="Student-info">
+                    <h3>SName1</h3>
+                    <span>Happy Participants</span>
+                 </div>
+              </div>  
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti molestias eveniet ipsam neque et. Nesciunt non harum, quam doloribus aut quas unde ratione quasi, enim eius facilis, dolorem quaerat teneture</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--EventReview section ends-->
+
+<!--ContactInfo section starts-->
+<section class="ContactInfo" id="ContactInfo">
+    <h1 class="heading"><span>Contact</span>Info</h1>
+    <form action="">
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+        <div class="inputBox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="subject">
+     </div>
+     <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
+     <input type="submit" value="send message" class="btn"> 
+    </form>
+</section>
+
+<!--ContactInfo section ends-->
+
+<!--Footer section starts-->
+<section class="footer">
+    <div class="box-container">
+    
+        <div class="box">
+            <h3>Quick Lines</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i> Home</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Service</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> About</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Gallery</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Contact Info</a>
+        </div>
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#"><i class="fas fa-phone"></i> +91-73396-25252</a>
+            <a href="#"><i class="fas fa-phone"></i> +91-12345-67890</a>
+            <a href="#"><i class="fas fa-envelope"></i> aparnaamarimuthu10@gmail.com</a>
+            <a href="#"><i class="fas fa-envelope"></i> 21bcs011@gmail.com</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>Coimbatore, India - 641109</a>
+        </div>
+        <div class="box">
+            <h3>Follow us</h3>
+            <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="#"><i class="fab fa-linkedin"></i>LinkedIn</a>
+        </div>
+    </div>
+    <div class="credits">Created by<span> MiniProject </span>All rights reserved!</div>
+</section>
+<!--Footer section ends-->
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+            <!--custom js file link-->
+            <script src="Mprj.js"></script>
+
+    </body>
+</html>
+
+
+<!--Footer section-->
